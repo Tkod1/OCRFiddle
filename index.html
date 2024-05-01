@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="">
+<head>
+  <title>OCRFiddle</title>
+  <link rel="stylesheet" href="/css/style.css"  />
+
+</head>
+<body>
+    <header>
+      <h1> OCR FIDDLE </h1>
+      <h3> This fiddle will let you peer into the mysteries contained in all files</h3>
+    </header>
+
+
+    <main>
+      <section>
+        <img src="https://www.ibm.com/blog/wp-content/uploads/2022/01/ferhat-deniz-fors-GzNZ1KNq6fM-unsplash-1200x614.jpg"  />
+        <h2> what is OCR? </h2>
+        <p>Optical Character Recognition is a way of determining pixel position and its correlation to readable letters
+          that can be read and interpolated from files to screen.</p>
+      </section>
+
+      <section>
+        <article>
+          <a href="#"><h3>Site outlines more details about the history of OCR.</h3></a>
+          <p>
+            Details that are related to OCR and it many uses.
+          </p>
+          <br  /><br  />
+        </article>
+
+        <article>
+          <img src="https://cdn.veryfi.com/wp-content/uploads/what-is-ocr.jpg"  />
+          <a href="#"><h3>OCR and its applications.</h3></a>
+          <p>
+            Details that are related to OCR and it many uses.
+          </p>
+          <br  /><br  />
+        </article>
+
+        <article>
+          <a href="#"><h3>OCR has many uses here are a few.</h3></a>
+          <p>
+            Details that are related to OCR and it many uses.
+          </p>
+          <br  /><br  />
+        </article>
+
+      </section>
+      <section id="Contact from">
+        <h2>Test Document scan</h2>
+        <form method="GET" action="ingest-file.py">
+          <h4> Input the files location it was discovered along with its location on your machine.</h4>
+          <input name="file location" placeholder="File On disk location" class="lg-input" /><br  />
+          <br  />
+          <h2>Estimate file size in mb.</h2>
+          <br  />
+
+          <h4>Size</h4>
+          <select name="size">
+            <option value="5">Between 0 and 5mb</option>
+            <option value="10">Between 5mb and 10mb</option>
+            <option value="15">Between 10mb and 15mb</option>
+
+          </select>
+          <br  />
+          <h2>Approximate location file was discovered.</h2>
+
+          <input name="City" placeholder="city" class="sm-input"  />
+          <input name="state" placeholder="state" class="sm-input"  />
+          <br  />
+
+          <br  />
+          <h4>State(s)</h4>
+          <input name="Arizona" type="checkbox"  /> Arizona<br />
+          <input name="Colorado" type="checkbox"  /> Colorado<br />
+          <input name="Alaska" type="checkbox"  /> Alaska<br />
+          <br  />
+            <button type="submit">Upload</button>
+
+        </form>
+
+      </section>
+
+      <footer>
+        <center>&copy;2024 A Project by Micah & Meisha.<br  />
+          <a href="#"> Terms Of Service. </a>
+        </center>
+      </footer>
+
+    </main>
+
+</body>
+</html>
